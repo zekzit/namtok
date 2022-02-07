@@ -16,7 +16,7 @@ export class StartServerCommand extends BaseCommand {
     }
 
     public execute(ctx: CommandContext): void {
-        ctx.reply(`Server on ${ctx.args[0]} has been stopped.`)
+        ctx.reply(`[DUMMY] Server on ${ctx.args[0]} has been started.`)
             .catch(e => this.client.logger.error("ABOUT_CMD_ERR:", e));
     }
 }
