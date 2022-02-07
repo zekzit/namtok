@@ -61,7 +61,8 @@ i18n.configure({
     locales: [
         "en",
         "es",
-        "id"
+        "id",
+        "th"
     ],
     objectNotation: true
 });

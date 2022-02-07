@@ -253,23 +253,23 @@
 				"newVolume": "Volume has been set to **`{volume}`**"
 			}
 		},
-		"imed": {
+		"leaves": {
 			"categoryName": "iMed Leaves",
-			"deploy": {
-				"description": "Deploy iMed staging server by branch specified"
-			},
-			"start": {
-				"description": "Start specified server"
-			},
-			"stop": {
-				"description": "Stop specified server"
+			"absences": {
+				"description": "แสดงรายการของคนลาในวันนี้",
+				"replyAbsences": "คนลาวันนี้ **`{message}`**"
 			}
 		},
-		"leaves": {
+		"imed": {
 			"categoryName": "iMed Servers",
-			"absences": {
-				"description": "Show list of today's absences",
-				"replyAbsences": "Today leaves: **`{message}`**"
+			"start": {
+				"description": "รัน Server ที่ระบุ"
+			},
+			"stop": {
+				"description": "หยุด Server ที่ระบุ"
+			},
+			"deploy": {
+				"description": "สร้าง Server ใหม่ตามรุ่นของ iMed ที่ระบุ"
 			}
 		}
 	},
@@ -290,7 +290,7 @@
 			"stopPlaying": "Stopped playing **{song}**",
 			"errorPlaying": "An error occurred while trying to play music, because: `{message}`"
 		},
-		"cooldownMessage": "{author}, please wait **`{timeleft}`** of cooldown time."
+		"cooldownMessage": "{author}, กรุณารอ **`{timeleft}`** เพื่อ cooldown"
 	},
 	"events": {
 		"channelUpdate": {
@@ -322,5 +322,5 @@
 	"reusable": {
 		"pageFooter": "Page {actual} of {total}",
 		"invalidUsage": "Invalid usage, please use **`{prefix} {name}`** for more information."
-	}
+	}	
 }
